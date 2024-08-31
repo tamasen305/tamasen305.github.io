@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3年5組玉せん-2024文化祭</title>
+    <link rel="icon" href="./pic/ファビコン.png">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="header-title">3年5組 玉せん</h2>
+    </header>
+    <div class="hero-area">
+        <img src="./pic/サムネ.png">
+    </div>
+    <div class="top">
+        <div class="date">
+        <h2>2024年9月26日(木)開催<br>星城文化祭に「玉せん」出店！</h2>
+        <h3 class="news_description">～好きなトッピングを選んで<br>「オリジナル玉せん」をつくろう！～</h3>
+        </div>
+        <div class="news">
+            <h2 class="news_heading">チケット販売日時</h2>
+            <h3 class="news_description">2024年9月12日(木)・13日(金)<br>13:00~13:20</h3>
+        </div>
+    </div>
+    <div class="theme">
+        <div class="heading">
+            <h2>テーマ：多様性を斬る</h2>
+        </div>
+        <div class="description">
+            <p>3年5組は、玉せんを作ります<br>
+            多様性が求められる時代、<br>
+            玉せんに何を挟むか、選ぶ権利があって当然でしょう<br>
+            そこで、挟まれたいものたちを選りすぐって<br>
+            挟んじゃいました！</p>
+        </div>
+    </div>
+    <div class="menu">
+        <h1>menu</h1>
+    </div>
+    <footer>
+        <h4>3年5組 玉せん</h4>
+        <h5>企画運営　　　2024年度 星城高校3年5組<br>
+            お問い合わせ　○○までお願いします</h5>
+        <input type="button" value="Admin Page" onclick="gate();">
+        <script type="text/javascript">
+            function gate() {
+                var user = prompt("ユーザー名","");
+                var pw = prompt("パスワード","");
+               if (pw == "admin"){
+                location.href = "admin.html";
+                }else{
+                alert("パスワードが違います");}
+            }
+         </script>
+
+        
+    </footer>
+</body>
+</html>

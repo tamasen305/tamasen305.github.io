@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    text-wrap: wrap;
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    font-weight: 400;
+}
+
+h1 {margin: 0;}
+h2 {margin: 0;}
+h3 {margin: 0;}
+h4 {margin: 0;}
+
+.hero-area {
+    display: flex;
+}
+
+.hero-area img{
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.top {
+    text-align: center;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.date{
+    color: #F288B9;
+    padding: 15px;
+}
+
+.news {
+    border: 2px solid;
+    background-color: #fff0f5;
+    margin: 0px 20px;
+    padding: 15px;
+}
+
+.news_heading {
+    text-decoration: underline;
+    text-decoration-color: #F288B9;
+}
+
+.news_description {
+    padding-top: 10px;
+}
+
+.theme {
+    text-align: center;
+    padding: 30px;
+    background-color: #eaf3ff;    
+}
+
