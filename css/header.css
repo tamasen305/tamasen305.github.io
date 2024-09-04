@@ -11,10 +11,10 @@ header {
 
 .header-title {
    position: absolute;
-   top: 10px;
+   top: 13px;
    left: 4%;
    color: #ffffff;
-   font-size: medium;
+   font-size:medium
 }
 
 .smartphone {
@@ -24,4 +24,19 @@ header {
    right: 1%;
    color: #ffffff;
    font-size: small;
+   a {
+      color: #ffffff;
+   }
+}
+
+.home {
+   position: fixed;
+   height: 25px;
+   top: 12px;
+   right: 0px;
+   padding-right: 4%;
+}
+
+body {
+   height: 1000px;
 }

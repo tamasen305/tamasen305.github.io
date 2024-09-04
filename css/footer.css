@@ -1,7 +1,7 @@
 footer{
     display: block;
     width: 100%;
-    height: 170px;
+    height: 200px;
     top: 0px;
     left: 0px;
     color: #ffffff;
@@ -10,6 +10,9 @@ footer{
  
  .footer {
     padding: 20px 6%;
+    a {
+      color: #ffffff;
+   }
  }
 
  .footer_heading {
@@ -17,7 +20,9 @@ footer{
  }
 
  .copyright {
-    text-align: center;
-    font-size: x-small;
-    color: #808080;
+   padding-top: 20px;
+   text-align: center;
+   font-size: x-small;
+   color: #808080;
 }
+
