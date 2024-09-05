@@ -1,25 +1,25 @@
 footer{
-    display: block;
-    width: 100%;
-    height: 200px;
-    top: 0px;
-    left: 0px;
-    color: #ffffff;
-    background-color: #212121;
- }
+   display: block;
+   width: 100%;
+   height: 200px;
+   top: 0px;
+   left: 0px;
+   color: #ffffff;
+   background-color: #212121;
+}
  
- .footer {
-    padding: 20px 6%;
-    a {
+.footer {
+   padding: 20px 6%;
+   a {
       color: #ffffff;
    }
- }
+}
 
- .footer_heading {
-    padding: 10px 0px 20px 0px;
- }
+.footer_heading {
+   padding: 10px 0px 20px 0px;
+}
 
- .copyright {
+.copyright {
    padding-top: 20px;
    text-align: center;
    font-size: x-small;
